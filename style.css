@@ -1,0 +1,52 @@
+
+.ul {
+  align-items: horizontal;
+  text-align: right;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.main {
+    object-position: center;
+    align-items: horizontal;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.main, div {
+    object-position: center;
+    align-items: horizontal;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.header, nav {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+.nav, a {
+    text-align: center;
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+  }
+.footer, ul {
+    text-align: center;
+    color: blue;
+    border-radius: 5px;
+    margin: 90px 10;
+    padding: 3px 8px;
+
+}
+
+  
+  
+
+
+
+

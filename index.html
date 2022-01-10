@@ -1,40 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My web search</title>
-        <ul>
-            <hl><a href="default.asp">Gmail</a></hl>
-            <hl><a href="news.asp">Images</a></hl>
-            <hl><a href="contact.asp">Contact</a></hl>
-            <hl><a href="about.asp">Login</a></hl>
-        </ul> 
-        
-    </head>
-    <body>
-        <main>
-            <div class="center">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            </div>
-            
-            <div class="center">
-                <img src="assets/images/search.png">
-            </div>
-        </main>
-  
-        <!--After Live Server-->
-        <nav role='navigation'>
-            <ul>
-                <a href="#0">Google search</a>
-                <a href="#0">I am luck</a>
-            </ul>
-        </nav> 
-    </body>
-    <div class="footer">
-        <ul>
-            <hl>This is the foot - comments</hl>
-        </ul> 
-    </div>
+<!DOCTYPE HTML >
+<html>
+   <head>
+      <title>Google</title>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href="src/styles.css" />
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	  <script src="https://kit.fontawesome.com/dafe072026.js" crossorigin="anonymous"></script>
+
+   </head>
+      <body>
+		    <section class="into">
+    		    <nav>
+		            <img class="logo" src="" alt="" />
+		            <ul id="nav-list">
+		                <li><a href="#Gmail">Gmail</a></li>
+		                <li><a href="#Images">Images</a></li>
+                        <button class="hamburger" id="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                                              
+		            </ul>
+         
+    
+		        </nav> 
+		        
+				<div class="into-area">
+					<div class="into-text">
+						<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+					
+						<div class="button">
+							<img src="assets/images/search.png">search or type Web adress</img>
+						</div>                    
+					</div>
+	            	            
+		        </div>  
+                
+
+		    </section>
 
 
+
+		    <footer id="Contact me">
+		        <h2>Contact me</h2>
+				<p class="subtext"><a class="footer-link" href="https://g.dev/eliferbit">This is my foot</a></p>
+		    </footer>
+		
+		    <script src="src/app.js"></script>
+
+      </body>|
 </html>

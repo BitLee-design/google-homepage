@@ -1,50 +1,156 @@
-
-.ul {
-  align-items: horizontal;
-  text-align: right;
-  margin: 20px 0;
-  padding: 10px;
+body {
+  font-family: poppins, sans-sherife;
 }
 
-.main {
-    object-position: center;
-    align-items: horizontal;
-    margin: 20px 0;
-    padding: 10px;
+section {
+  background-color: black;
+  color: white;
+  /*border: solid black 1px;*/
 }
 
-.main, div {
-    object-position: center;
-    align-items: horizontal;
-    margin: 20px 0;
-    padding: 10px;
+.into {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  font-size: 60px;
+  font-family: bold;
 }
 
-.header, nav {
-    text-align: center;
-    background: white;
-    margin: 20px 0;
-    padding: 10px;
-  }
-
-.nav, a {
-    text-align: center;
-    text-decoration: none;
-    background: #333;
-    border-radius: 5px;
-    color: white;
-    padding: 3px 8px;
-  }
-.footer, ul {
-    text-align: center;
-    color: blue;
-    border-radius: 5px;
-    margin: 90px 10;
-    padding: 3px 8px;
-
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
 }
 
+nav {
+  display: flex;  
+  justify-content: space-between;
   
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.into-area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 50px;
+  align-items: center;
+  margin-left: -130;
+  height: 100%;
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro-area {
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: black;
+  }
+
+}
+
+.into-text {
+  font-size: 30px;
+  margin: 20px 10px 0px 130px;
+  padding: 5px 0px 0px;
+  font-weight: 300;
+  margin-left: 600px;
+  margin-right: 55px;
+
+}
+
+.button {
+  width: 600px;
+  height: 50px;
+  background-color: rgb(255, 173, 80);
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-left: -130px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #fff;  
+  
+}
+
+
+.footer-link {
+  text-decoration: none;
+  color: coral;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+      display: block;
+      border: 0;
+      background-color: transparent;
+      color: white;
+      font-size: 30px;
+      margin: 20px;
+      align-self: flex-end;
+  }
+  ul{
+      display: none;
+      background-color: rgb(43, 144, 226);
+      margin: 0px;
+  
+  }
+
+  ul.show {
+      display: block;
+  }
+     
+  nav {
+      display: flex;
+      flex-direction: column-reverse;
+      background-color: black;
+  }
+  
+  .logo {
+      display: none;
+  }
+}
+
+
+
+
   
 
 
